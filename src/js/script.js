@@ -11,7 +11,7 @@ if (age >= 18) {
 } 	else  { start = false};
 
 if (start == true) {
-	cconfirm("Подписаны ли вы на рассылку?");
+	confirm("Подписаны ли вы на рассылку?");
 	access();
 } else if (start == false) {
 		alert("Доступ запрещен")
